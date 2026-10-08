@@ -50,7 +50,7 @@ function updateCount(displayedCount, totalCount) {
     }
 }
 
-// Render notes list using DOM methods (never innerHTML for user text)
+// Render notes list using DOM methods 
 function render(filterText = "") {
     notesList.textContent = "";
 
