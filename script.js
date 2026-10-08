@@ -20,7 +20,7 @@ function loadNotes() {
     }
 }
 
-// Save notes to localStorage
+// Saves notes to localStorage
 function saveNotes() {
     localStorage.setItem("quicknotes_data", JSON.stringify(notes));
 }
